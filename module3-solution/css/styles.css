@@ -1,0 +1,77 @@
+body {
+	background-color: #2b5b84;
+	background-image: linear-gradient(#1E415E 30%, #2B5B84 70%);
+	color: #FFFFFF;
+}
+
+h2 {
+	margin-bottom: 50px;
+}
+
+#header-nav, .menu-item {
+	border-radius: 0;
+	border: 0;
+	background-color: #2d618c;
+	background-image: linear-gradient(#3776AB 30%, #2D618C 95%);
+	border-top: 1px solid #629CCD;
+	border-bottom: 1px solid #18334b;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-brand a {
+	color: #FFFFFF;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header {
+	min-height: 80px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar  {
+	border-top: 1px solid #629CCD;
+	border-left: 1px solid #629CCD;
+	border-bottom: 1px solid #18334b;
+	border-right: 1px solid #18334b;
+
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;	
+}
+
+.navbar-header h1 {
+	line-height: 50px;
+	margin: 0;	
+}
+
+#nav-list a {
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+.menu-item {
+	border-left: 1px solid #629CCD;
+	border-right: 1px solid #18334b;
+	padding: 0 10px 10px 10px;
+	margin-bottom: 20px;
+}
+
+.menu-item a {
+	color: #18334b;
+}
+
+@media (max-width:768px){
+	.navbar-default .navbar-collapse {
+		border-top: 1px solid #18334b;
+	}
+}
